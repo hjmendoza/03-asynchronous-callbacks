@@ -17,4 +17,12 @@ describe('File Reader Module', () => {
       done();
     });
   });
+
+  it('should return data from a file', (done) => {
+    read([__dirname + '/../data/1.txt'], (err, data) => {
+      expect(err).toBeUndefined();
+      expect(data.toString()).toBe('First file.');
+      done();
+    });
+  });
 });
