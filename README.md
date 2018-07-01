@@ -1,12 +1,14 @@
 ![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 03: Asynchronous Callbacks - Lab - Haley Mendoza
 ===
 
+[![Build Status](https://travis-ci.com/hjmendoza/03-asynchronous-callbacks.svg?branch=master)](https://travis-ci.com/hjmendoza/03-asynchronous-callbacks)
+
 ## Testing
 ##### File Reader Module Tests
-* Use `describe` and `it` (or `test`) methods to define descriptive tests and increase readability
-* Each `it` callback should aim to test a small, well defined, feature of a function
-* Write tests to ensure that the reader function rejects errors with invalid file paths
-* Write tests to ensure that the reader function correctly resolves mapped string data for an array of file paths
+* Uses `describe` and `it` (or `test`) methods to define descriptive tests and increase readability
+* Each `it` callback aims to test a small, well defined, feature of a function
+* Tests written to ensure that the reader function rejects errors with invalid file paths
+* Tests written to ensure that the reader function correctly resolves mapped string data for an array of file paths
 
 ## 
 ##### File Reader Module
